@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&:900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&:900&display=swap');     
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    /* width: 100vw;
+    height: 100vh;
+    margin: 0 auto; */
+    background-image: url('background.png');
+    background-size: cover;
+    color: white;
+
+}
+
+.nav-container {
+
+    display: flex;
+    align-items: center;
+    /* Justifies logo and ul */
+    justify-content:space-between;
+    height: 50px;
+    /* width: min(90%, 80rem); */
+
+    /* keeps nav-container centered in page */
+    margin: 0 auto;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content:space-between;
+    gap: 128px;
+    padding-right:    
+}
+
+.navbar li {
+    list-style: none;
+    /* padding: 0 35px; */
+
+}
+
+.navbar a {
+    
+    text-decoration: none;
+    letter-spacing: 2.5px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+
+
+
+.hero-container {
+    padding-left: 100;
+    padding-top: 200;
+    max-width: 610px;
+}
+
+
+
+
+
+h1 {
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 40px;
+    max-width: 500px;
+    padding-top: 21px;
+}
+
+h2 {
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+h3 {
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+p {
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 28px;
+    padding-top: 69px;
+    padding-bottom: 69px;
+    
+}
+
+button {
+    color: white;
+    background-color: transparent; 
+    border: 1px solid rgb(255, 255, 255); 
+    height: 60px;
+    width: 180px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2.5px;
+}
